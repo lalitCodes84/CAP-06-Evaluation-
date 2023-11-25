@@ -1,0 +1,88 @@
+
+/* css of heading of masai doctor records */
+
+h1{
+  color: rgb(13, 47, 84);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-size: 25px ;
+  margin-left: 27rem;
+  margin-bottom: -5rem;
+
+  
+}
+
+/* form tab css section */
+
+form{
+  background-color: rgb(245, 217, 217);
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 25%;
+  height: 25rem;
+  margin-top: 9rem;
+  margin-left: 5rem;
+  padding: 20px;
+}
+form>input,select{
+  margin-top: 3px;
+  margin-bottom: 10px;
+  height: 25px;
+}
+input[type="submit"]{
+  background-color: #2b619e;
+  color: rgb(238, 211, 211);
+  padding: 3px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+
+}
+input[type="text"],input[type="number"],select{
+  width: 90%;
+}
+
+/* Table css code */
+
+table {
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 60%;
+  margin: auto;
+  margin-top: -25rem;
+  margin-left: 30rem;
+  text-align: center;
+}
+
+table td,
+table th {
+  border: 1px solid #ddd;
+  padding: 5px;
+  text-align: center;
+}
+
+table tr:nth-child(even) {
+  background-color: #8caacf;
+}
+
+table tr:hover {
+  background-color: #ddd;
+}
+
+table th {
+  padding: 6px;
+  font-size: 13px;
+  text-align: left;
+  background-color: #0468aa;
+  color: white;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
