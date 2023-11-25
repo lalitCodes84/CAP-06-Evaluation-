@@ -11,10 +11,10 @@ function StudentDetails(name, roll_no, className, section, marks) {
 
    // Example usage:
    var student = new StudentDetails(
-    "John",
-    123,
-    "10th",
-    "A",
+    "Bobby",
+    343,
+    "9th",
+    "B",
     {
       science: 72,
       maths: 75,

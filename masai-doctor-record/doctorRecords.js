@@ -30,6 +30,7 @@ function createRow(doctorData) {
   var deleteCell = document.createElement('td');
   deleteCell.style.backgroundColor="Red";
   var deleteButton = document.createElement('button');
+  deleteButton.style.backgroundColor="Red";
   deleteButton.textContent = 'Delete';
   deleteButton.addEventListener('click', function() {
     tableBody.removeChild(newRow);
