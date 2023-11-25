@@ -28,6 +28,7 @@ function createRow(doctorData) {
   // Button Created for deleting row
 
   var deleteCell = document.createElement('td');
+  deleteCell.style.backgroundColor="Red";
   var deleteButton = document.createElement('button');
   deleteButton.textContent = 'Delete';
   deleteButton.addEventListener('click', function() {
